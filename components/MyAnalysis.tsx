@@ -150,8 +150,9 @@ export default function MyAnalysis() {
                 <li>zero dependență de servere externe</li>
                 <li>putem oferi auditabilitate locală</li>
                 <li>GDPR-friendly prin design</li>
+
               </ul>
-              <p className="font-semibold text-white">Putem vinde securitatea ca <em>beneficiu major pentru clienți</em>.</p>
+              <p className="font-semibold text-white">Astazi trimitem datele clientilor la OpenAi, Google si Anthropic !!!</p>
             </div>
           </div>
 
@@ -166,7 +167,6 @@ export default function MyAnalysis() {
                 <li>fiecare run costă uneori <strong>~50$</strong></li>
                 <li>nu poți controla câte epoci folosești</li>
                 <li>nu poți experimenta masiv</li>
-                <li>nu poți face micro-specializări pentru clienți specifici</li>
                 <li>datele tot ajung în cloudul lor</li>
               </ul>
               <p>Cu hardware propriu:</p>
@@ -197,8 +197,7 @@ export default function MyAnalysis() {
               <p>Față de API-uri, nu există:</p>
               <ul className="list-disc pl-6 space-y-1 marker:text-accent-primary">
                 <li>surprize</li>
-                <li>overages</li>
-                <li>limitări de throughput</li>
+                <li>limitări de throughput (ca nu suntem tier-ul bun ca in trecut)</li>
                 <li>taxe pentru fiecare experiment</li>
               </ul>
               <p className="font-semibold text-white">Este un activ — nu o cheltuială.</p>
