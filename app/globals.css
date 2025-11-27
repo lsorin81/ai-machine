@@ -71,3 +71,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.list-circle {
+  list-style-type: circle;
+}

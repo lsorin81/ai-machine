@@ -1,6 +1,8 @@
 import Hero from '@/components/Hero';
 import ComparisonCard from '@/components/ComparisonCard';
 import AnalysisSection from '@/components/AnalysisSection';
+import MyAnalysis from '@/components/MyAnalysis';
+import Minuses from '@/components/Minuses';
 
 export default function Home() {
   const machines = [
@@ -78,6 +80,8 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-black text-white selection:bg-accent-primary selection:text-black">
+      <MyAnalysis />
+      <Minuses />
       <Hero />
 
       <section id="comparison" className="py-20 px-4 md:px-8">
